@@ -41,14 +41,6 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
-                                <rect key="frame" x="172" y="259" width="151" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" id="siQ-G1-J5C">
                                 <rect key="frame" x="0.0" y="311" width="375" height="361"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -68,7 +60,7 @@
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="s45-G0-8Fw"/>
                                         </connections>
                                     </segmentedControl>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
                                         <rect key="frame" x="173" y="70" width="151" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -131,6 +123,14 @@
                                 <animations/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="1" blue="0.89019607840000003" alpha="0.30840517239999998" colorSpace="calibratedRGB"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+                                <rect key="frame" x="172" y="256" width="151" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -185,7 +185,7 @@
         <!--Settings View Controller-->
         <scene sceneID="cM7-n4-Pdk">
             <objects>
-                <viewController title="Settings View Controller" id="yZv-Uu-K1J" sceneMemberID="viewController">
+                <viewController title="Settings View Controller" id="yZv-Uu-K1J" customClass="ViewController" customModule="tipCalc" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqB-oU-bHu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -252,6 +252,7 @@
                                         </segments>
                                         <color key="tintColor" red="0.66666666669999997" green="0.76078431369999999" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+                                            <action selector="actDefaultPer:" destination="yZv-Uu-K1J" eventType="valueChanged" id="p4K-a8-4MU"/>
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LHD-Vm-Fyh"/>
                                         </connections>
                                     </segmentedControl>
@@ -265,6 +266,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XmK-EL-mw8"/>
+                    <connections>
+                        <outlet property="defaultSettings" destination="GMD-GU-Rp3" id="dWl-Hs-IPu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPT-Fx-INb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
