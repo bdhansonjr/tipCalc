@@ -42,7 +42,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
 <<<<<<< HEAD
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 =======
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
 >>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
@@ -73,7 +77,11 @@
                                         </connections>
                                     </segmentedControl>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
+=======
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 =======
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
 >>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
@@ -194,7 +202,11 @@
         <scene sceneID="cM7-n4-Pdk">
             <objects>
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <viewController title="Settings View Controller" id="yZv-Uu-K1J" customClass="ViewController" customModule="tipCalc" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController title="Settings View Controller" id="yZv-Uu-K1J" sceneMemberID="viewController">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 =======
                 <viewController title="Settings View Controller" id="yZv-Uu-K1J" sceneMemberID="viewController">
 >>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
@@ -265,7 +277,10 @@
                                         <color key="tintColor" red="0.66666666669999997" green="0.76078431369999999" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                             <action selector="actDefault:" destination="yZv-Uu-K1J" eventType="valueChanged" id="EpW-6w-rlx"/>
+=======
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 =======
 >>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LHD-Vm-Fyh"/>
@@ -282,9 +297,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="XmK-EL-mw8"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                     <connections>
                         <outlet property="defPercentage" destination="GMD-GU-Rp3" id="jwe-Oy-6SI"/>
                     </connections>
+=======
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 =======
 >>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                 </viewController>
