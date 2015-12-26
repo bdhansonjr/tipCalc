@@ -16,33 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var settingsButton: UIBarButtonItem!
-<<<<<<< HEAD
-<<<<<<< HEAD
-    @IBOutlet weak var defPercentage: UISegmentedControl!
-    
-    @IBAction func actDefault(sender: UISegmentedControl) {
-        //Code for selecting defaults
-        print(defPercentage.selectedSegmentIndex)
-        
-    }
-=======
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
-=======
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
-=======
-        tipLabel.text = "$0.00"
-        totalLabel.text = "$0.00"
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
     }
 
     override func didReceiveMemoryWarning() {
@@ -77,16 +56,7 @@ class ViewController: UIViewController {
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
     
     
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
-=======
-    
-    
->>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
 }
 
