@@ -41,7 +41,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+<<<<<<< HEAD
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+=======
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                                 <rect key="frame" x="172" y="259" width="151" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <animations/>
@@ -68,7 +72,11 @@
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="s45-G0-8Fw"/>
                                         </connections>
                                     </segmentedControl>
+<<<<<<< HEAD
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
+=======
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="s8E-GI-FCg">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                                         <rect key="frame" x="173" y="70" width="151" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
@@ -185,7 +193,11 @@
         <!--Settings View Controller-->
         <scene sceneID="cM7-n4-Pdk">
             <objects>
+<<<<<<< HEAD
                 <viewController title="Settings View Controller" id="yZv-Uu-K1J" customClass="ViewController" customModule="tipCalc" customModuleProvider="target" sceneMemberID="viewController">
+=======
+                <viewController title="Settings View Controller" id="yZv-Uu-K1J" sceneMemberID="viewController">
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                     <view key="view" contentMode="scaleToFill" id="xqB-oU-bHu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -252,7 +264,10 @@
                                         </segments>
                                         <color key="tintColor" red="0.66666666669999997" green="0.76078431369999999" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
                                         <connections>
+<<<<<<< HEAD
                                             <action selector="actDefault:" destination="yZv-Uu-K1J" eventType="valueChanged" id="EpW-6w-rlx"/>
+=======
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LHD-Vm-Fyh"/>
                                         </connections>
                                     </segmentedControl>
@@ -266,9 +281,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XmK-EL-mw8"/>
+<<<<<<< HEAD
                     <connections>
                         <outlet property="defPercentage" destination="GMD-GU-Rp3" id="jwe-Oy-6SI"/>
                     </connections>
+=======
+>>>>>>> 8090739c70924d3f09e9492d622b0bef00d0bf48
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPT-Fx-INb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
