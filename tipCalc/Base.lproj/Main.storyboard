@@ -226,7 +226,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose defualt your percentage" textAlignment="center" minimumFontSize="17" id="8YC-Od-Qaj">
-                                        <rect key="frame" x="-28" y="116" width="431" height="36"/>
+                                        <rect key="frame" x="-28" y="108" width="431" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
@@ -239,24 +239,6 @@
                             <view contentMode="scaleToFill" id="xY5-t3-Xm3">
                                 <rect key="frame" x="0.0" y="306" width="375" height="361"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="GMD-GU-Rp3">
-                                        <rect key="frame" x="30" y="14" width="315" height="29"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <animations/>
-                                        <color key="backgroundColor" red="1" green="0.9983833084" blue="0.96925987609999997" alpha="1" colorSpace="calibratedRGB"/>
-                                        <segments>
-                                            <segment title="18%"/>
-                                            <segment title="20%"/>
-                                            <segment title="25%"/>
-                                        </segments>
-                                        <color key="tintColor" red="0.66666666669999997" green="0.76078431369999999" blue="0.6705882353" alpha="1" colorSpace="calibratedRGB"/>
-                                        <connections>
-                                            <action selector="actDefaultPer:" destination="yZv-Uu-K1J" eventType="valueChanged" id="p4K-a8-4MU"/>
-                                            <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="LHD-Vm-Fyh"/>
-                                        </connections>
-                                    </segmentedControl>
-                                </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="1" blue="0.89019607840000003" alpha="0.30840517239999998" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
@@ -266,9 +248,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XmK-EL-mw8"/>
-                    <connections>
-                        <outlet property="defaultSettings" destination="GMD-GU-Rp3" id="dWl-Hs-IPu"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPT-Fx-INb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
