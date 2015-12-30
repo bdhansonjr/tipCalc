@@ -15,15 +15,53 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var settingsButton: UIBarButtonItem!
+    @IBOutlet weak var userName: UITextField!
+    @IBOutlet weak var defaultPercentage: UISegmentedControl!
 
+    @IBOutlet weak var userNameField: UITextField!
+    static let myName = "Full_Human_Name"
+    
+    let defaults = NSUserDefaults.standardUserDefaults()
     //OKAY
+    
+    @IBAction func getName(sender: AnyObject) {
+        let name = userName
+        print(name.text)
+        
+    }
+    
+    @IBAction func saveName(sender: AnyObject) {
+        print("Name saved")
+        if (userName.text!.characters.count > 0) {
+            let prefs = NSUserDefaults.standardUserDefaults()
+            prefs.setObject(userName.text, forKey: ViewController.myName)
+        }
 
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+//        
+//        let tipOptions = [ 18.0, 20.0, 25.0]
+//        
+//        defaults.setObject(tipOptions, forKey: "tipOption1")
+//        defaults.setInteger(0, forKey: "tipOption1")
+//        defaults.synchronize()
+
+        // update labels from NSUserDefaults
+        getUserPreferences()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        //print("view will appear")
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var tipOpt = defaults.integerForKey("defaultTipOption")
         
-            }
+        if tipOpt == NSNotFound {
+            tipOpt = 0
+        }
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -51,11 +89,24 @@ class ViewController: UIViewController {
         // Format to two decimal places
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
-        
-    }
+        }
 
+    @IBAction func onTap_settings(sender: AnyObject) {
+        view.endEditing(true)
+    }
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
+        
+    }
+    
+    // Updates the view with the user values already stored in NSUserDefaults
+    func getUserPreferences() {
+        let prefs = NSUserDefaults.standardUserDefaults()
+        
+        // Get Favorite beer
+        if let name = prefs.stringForKey(ViewController.myName) {
+            userName.text = name
+        }
     }
     
     
