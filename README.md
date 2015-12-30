@@ -17,4 +17,4 @@ If you're interested in learning iOS development with swift check out the link b
   
   
 #Preview
-![alt tag](https://github.com/RobinsonKameron/tipCalc/blob/master/gifs/tipCalc_Phase2.gif?raw=true)
+![alt tag](https://github.com/RobinsonKameron/tipCalc/blob/master/gifs/tipCalc2.gif?raw=true)
