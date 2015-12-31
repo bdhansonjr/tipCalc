@@ -14,6 +14,7 @@
 		B924A13A1C2BAA72009326A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B924A1381C2BAA72009326A2 /* LaunchScreen.storyboard */; };
 		B924A1451C2BAA72009326A2 /* tipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924A1441C2BAA72009326A2 /* tipCalcTests.swift */; };
 		B924A1501C2BAA72009326A2 /* tipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924A14F1C2BAA72009326A2 /* tipCalcUITests.swift */; };
+		B9A5277B1C350A7A0076B2E8 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A5277A1C350A7A0076B2E8 /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B924A14B1C2BAA72009326A2 /* tipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B924A14F1C2BAA72009326A2 /* tipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalcUITests.swift; sourceTree = "<group>"; };
 		B924A1511C2BAA72009326A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9A5277A1C350A7A0076B2E8 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsController.swift; path = tipCalc/SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B924A1231C2BAA72009326A2 = {
 			isa = PBXGroup;
 			children = (
+				B9A5277A1C350A7A0076B2E8 /* SettingsController.swift */,
 				B924A12E1C2BAA72009326A2 /* tipCalc */,
 				B924A14E1C2BAA72009326A2 /* tipCalcUITests */,
 				B924A12D1C2BAA72009326A2 /* Products */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A5277B1C350A7A0076B2E8 /* SettingsController.swift in Sources */,
 				B924A1321C2BAA72009326A2 /* ViewController.swift in Sources */,
 				B924A1301C2BAA72009326A2 /* AppDelegate.swift in Sources */,
 			);

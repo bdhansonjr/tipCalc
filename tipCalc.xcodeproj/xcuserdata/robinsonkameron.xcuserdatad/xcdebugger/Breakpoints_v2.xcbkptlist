@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tipCalc/ViewController.swift"
-            timestampString = "473132742.462823"
+            timestampString = "473240028.390301"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -26,13 +26,153 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tipCalc/ViewController.swift"
-            timestampString = "473132742.462823"
+            timestampString = "473238440.106468"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "ViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.ViewController.billField.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/ViewController.swift"
+                  timestampString = "473238388.512148"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.ViewController.billField.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UITextField&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/ViewController.swift"
+                  timestampString = "473238388.512355"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.ViewController.init (tipCalc.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; tipCalc.ViewController"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/ViewController.swift"
+                  timestampString = "473238388.512555"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "233">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.ViewController.init (tipCalc.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tipCalc.ViewController&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/ViewController.swift"
+                  timestampString = "473238388.512751"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tipCalc/SettingsController.swift"
+            timestampString = "473239039.652044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SettingsController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.SettingsController.saveName.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/SettingsController.swift"
+                  timestampString = "473239040.714506"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.SettingsController.saveName.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/SettingsController.swift"
+                  timestampString = "473239040.715146"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.SettingsController.init (tipCalc.SettingsController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; tipCalc.SettingsController"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/SettingsController.swift"
+                  timestampString = "473239040.715593"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipCalc.SettingsController.init (tipCalc.SettingsController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tipCalc.SettingsController&gt;"
+                  moduleName = "tipCalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robinsonkameron/Documents/Development/codePath/iOS%20Pre-work%20-%20Tip%20Calculator%20App/tipCalc/tipCalc/SettingsController.swift"
+                  timestampString = "473239040.716215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -84,6 +84,14 @@
                                     <outletCollection property="gestureRecognizers" destination="Q1a-ji-uyQ" appends="YES" id="48b-ec-4bL"/>
                                 </connections>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
+                                <rect key="frame" x="172" y="256" width="151" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" id="6y7-Bq-iTZ">
                                 <rect key="frame" x="0.0" y="10" width="375" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -119,18 +127,32 @@
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Hello" textAlignment="natural" id="i1I-k8-smd">
+                                        <rect key="frame" x="97" y="76" width="72.5" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.94509803921568625" green="1" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="username!" textAlignment="natural" id="a1L-9u-633">
+                                        <rect key="frame" x="165" y="76" width="152" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="1" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <animations/>
                                 <color key="backgroundColor" red="0.88235294119999996" green="1" blue="0.89019607840000003" alpha="0.30840517239999998" colorSpace="calibratedRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3uG-SX-J99">
-                                <rect key="frame" x="172" y="256" width="151" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -185,7 +207,7 @@
         <!--Settings View Controller-->
         <scene sceneID="cM7-n4-Pdk">
             <objects>
-                <viewController title="Settings View Controller" id="yZv-Uu-K1J" customClass="ViewController" customModule="tipCalc" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Settings View Controller" id="yZv-Uu-K1J" customClass="SettingsController" customModule="tipCalc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xqB-oU-bHu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -255,15 +277,15 @@
                                             <action selector="onEditingChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="wEG-HP-UzB"/>
                                         </connections>
                                     </segmentedControl>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What is your name?" textAlignment="center" minimumFontSize="17" id="2kS-m0-Bg4">
-                                        <rect key="frame" x="8" y="177" width="241" height="33"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="What should I call you?" textAlignment="center" minimumFontSize="17" id="2kS-m0-Bg4">
+                                        <rect key="frame" x="12" y="69" width="281" height="33"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lQm-yw-mjx">
-                                        <rect key="frame" x="297" y="208" width="70" height="50.5"/>
+                                        <rect key="frame" x="305" y="100" width="70" height="50.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -272,11 +294,27 @@
                                             <color key="titleShadowColor" red="0.26671461140000002" green="0.82109517899999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="saveName:" destination="yZv-Uu-K1J" eventType="touchUpInside" id="yZk-Bp-h0e"/>
+                                            <action selector="saveName:" destination="yZv-Uu-K1J" eventType="touchUpInside" id="HAJ-iF-ovV"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First name Last name" textAlignment="natural" minimumFontSize="17" id="Lzl-o1-Uen">
-                                        <rect key="frame" x="30" y="218" width="266" height="30"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Hey, there tip me!" textAlignment="natural" id="LH7-EQ-2Si">
+                                        <rect key="frame" x="30" y="148" width="237.5" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="1" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Name" textAlignment="natural" id="KV3-o6-TPE">
+                                        <rect key="frame" x="61" y="193" width="306" height="52"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <animations/>
+                                        <color key="backgroundColor" red="0.94509803920000002" green="1" blue="0.94901960780000005" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" id="Lzl-o1-Uen">
+                                        <rect key="frame" x="30" y="110" width="284" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <animations/>
                                         <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="30"/>
@@ -300,9 +338,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="XmK-EL-mw8"/>
                     <connections>
-                        <outlet property="defaultPercentage" destination="pVK-mS-KuJ" id="hiQ-7O-UkI"/>
-                        <outlet property="userName" destination="Lzl-o1-Uen" id="GLk-sw-Itc"/>
-                        <outlet property="userNameField" destination="Lzl-o1-Uen" id="MMt-RV-Cpb"/>
+                        <outlet property="currentName" destination="KV3-o6-TPE" id="bTF-lR-QjG"/>
+                        <outlet property="defaultPercentage" destination="pVK-mS-KuJ" id="vBJ-fx-9YX"/>
+                        <outlet property="saveName" destination="lQm-yw-mjx" id="k65-HW-T2V"/>
+                        <outlet property="userName" destination="Lzl-o1-Uen" id="3XM-EO-jsk"/>
+                        <outlet property="userNameField" destination="2kS-m0-Bg4" id="3Vy-NA-Lxh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JPT-Fx-INb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -312,7 +352,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="552.5" y="266.5"/>
+            <point key="canvasLocation" x="549.5" y="256.5"/>
         </scene>
     </scenes>
 </document>

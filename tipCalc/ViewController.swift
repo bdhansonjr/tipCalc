@@ -15,29 +15,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var settingsButton: UIBarButtonItem!
-    @IBOutlet weak var userName: UITextField!
-    @IBOutlet weak var defaultPercentage: UISegmentedControl!
 
-    @IBOutlet weak var userNameField: UITextField!
-    static let myName = "Full_Human_Name"
+    @IBOutlet weak var helloText: UITextView!
     
-    let defaults = NSUserDefaults.standardUserDefaults()
-    //OKAY
-    
-    @IBAction func getName(sender: AnyObject) {
-        let name = userName
-        print(name.text)
-        
-    }
-    
-    @IBAction func saveName(sender: AnyObject) {
-        print("Name saved")
-        if (userName.text!.characters.count > 0) {
-            let prefs = NSUserDefaults.standardUserDefaults()
-            prefs.setObject(userName.text, forKey: ViewController.myName)
-        }
-
-    }
+//    helloText.editable = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,18 +30,18 @@ class ViewController: UIViewController {
 //        defaults.synchronize()
 
         // update labels from NSUserDefaults
-        getUserPreferences()
+//        getUserPreferences()
     }
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         //print("view will appear")
-        var defaults = NSUserDefaults.standardUserDefaults()
-        var tipOpt = defaults.integerForKey("defaultTipOption")
-        
-        if tipOpt == NSNotFound {
-            tipOpt = 0
-        }
+//        var defaults = NSUserDefaults.standardUserDefaults()
+//        var tipOpt = defaults.integerForKey("defaultTipOption")
+//        
+//        if tipOpt == NSNotFound {
+//            tipOpt = 0
+//        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -98,17 +79,8 @@ class ViewController: UIViewController {
         view.endEditing(true)
         
     }
-    
-    // Updates the view with the user values already stored in NSUserDefaults
-    func getUserPreferences() {
-        let prefs = NSUserDefaults.standardUserDefaults()
-        
-        // Get Favorite beer
-        if let name = prefs.stringForKey(ViewController.myName) {
-            userName.text = name
-        }
-    }
-    
+
+
     
 }
 
